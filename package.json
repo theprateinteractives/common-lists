@@ -1,0 +1,16 @@
+{
+  "name": "@drafty/common-lists",
+  "version": "1.0.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "repository": "git@github.com:theprateinteractives/common-lists.git",
+  "author": "James Canning <james@brudil.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.50.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  }
+}
